@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &705029071955033275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 705029071955033273}
+  - component: {fileID: 705029071955033274}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &705029071955033273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705029071955033275}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 26.767057, y: 262.59668, z: -1825.7173}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &705029071955033274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705029071955033275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 444506532c5a9b54b852ed04b065ee27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: ca00c3c6b3c9f7845913d54cad1e14a3, type: 3}
+    name: Player Jump
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 941556c338e787e4285280c0bbe120fc, type: 3}
+    name: Theme
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - clip: {fileID: 8300000, guid: 00713bf31f65ab445ba4fe4a8411d219, type: 3}
+    name: Begin
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - clip: {fileID: 8300000, guid: 1c6a5b3a958d7ef4aa3812b00902a013, type: 3}
+    name: Hit
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 718a00a203c8fdf4390296a4517edcb1, type: 3}
+    name: Shoot
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: c46b41b923fa69942aadfb768d055ed5, type: 3}
+    name: Explore Enemy
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 13ddc023ecdbb25499ce4485027e3689, type: 3}
+    name: Collect items
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: afea8bbb1ee38fd4690da321c4b80b11, type: 3}
+    name: After Bash
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 38a17a92b9d9748c6a1e67972041b833, type: 3}
+    name: Bash
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: a931da70ee74947d5a047de583170ade, type: 3}
+    name: Launch
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: c9a783ad07113d54fb2927a0e71283ac, type: 3}
+    name: Select
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 874ad3c43bc09034e9646eb2295ec12a, type: 3}
+    name: Laser
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: bdb1ef371654aa940a20bfe7a58b4cf9, type: 3}
+    name: Lava
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 8c2bf8fd6bef3354cbbc025ff2eebbb2, type: 3}
+    name: Super jump
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 244a0264215788c4c9cfe7749fa154e9, type: 3}
+    name: Reverse
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 2b6ee350304efa14f84947140c7c2713, type: 3}
+    name: Dash
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
